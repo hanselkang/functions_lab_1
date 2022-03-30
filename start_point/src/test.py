@@ -1,5 +1,9 @@
-dict = {1: "January", 3: "March", 9: "September"}
-print(dict[1])
+a = 'abc'
 
- 
-len_side ** 3
+print(a[::-1])
+
+
+c = [1, 2, 3, 4, 5, 6,7,8,9,10,11,12,13,14,15]
+print(c[::-1])
+
+print(c[1:16:3])

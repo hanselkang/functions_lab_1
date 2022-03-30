@@ -39,3 +39,9 @@ def number_to_full_month_name(months):
 def number_to_short_month_name(short_month):
     dict = {1: "Jan", 4: "Apr", 10: "Oct"}
     return dict[short_month]
+
+def cube_volume(len_side_cube):
+    return(len_side_cube**3) 
+
+def gnirts(to_reverse):
+    return to_reverse.reverse()

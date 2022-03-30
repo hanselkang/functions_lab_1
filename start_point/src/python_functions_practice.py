@@ -47,3 +47,8 @@ def cube_volume(len_side_cube):
 
 def gnirts(to_reverse):
     return to_reverse[::-1]
+
+
+def fahrenheit(degree):
+    celsius = (degree - 32) * 5/9
+    return celsius
